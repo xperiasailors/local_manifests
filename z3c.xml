@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="CyanogenMod/android_device_sony_z3c" path="device/sony/z3c" remote="github" />
-  <project name="CyanogenMod/android_device_sony_shinano-common" path="device/sony/shinano-common" remote="github" />
-  <project name="CyanogenMod/android_kernel_sony_msm8974" path="kernel/sony/msm8974" remote="github" />
+  <project name="xperiasailors/android_device_sony_z3c" path="device/sony/z3c" remote="github" />
+  <project name="xperiasailors/android_device_sony_shinano-common" path="device/sony/shinano-common" remote="github" />
+  <project name="xperiasailors/android_kernel_sony_msm8974" path="kernel/sony/msm8974" remote="github" />
   <project name="CyanogenMod/android_device_sony_msm8974-common" path="device/sony/msm8974-common" remote="github" />
   <project name="CyanogenMod/android_device_sony_common" path="device/sony/common" remote="github" />
   <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" />
@@ -14,4 +14,9 @@
   <project path="rpm" name="xperiasailors/droid-hal-z3c" revision="master" remote="github" />
   <project path="hybris/droid-configs" name="xperiasailors/droid-config-z3c" remote="github" revision="master"/>
   <project path="hybris/droid-hal-version-z3c" name="xperiasailors/droid-hal-version-z3c" remote="github" revision="master"/>
+
+  <!-- Temporary overrides -->
+  <remove-project name="mer-hybris/hybris-boot" />
+  <project path="hybris/hybris-boot" name="xperiasailors/hybris-boot" remote="github" revision="master"/>
+  
 </manifest>
