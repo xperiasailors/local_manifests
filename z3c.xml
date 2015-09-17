@@ -18,5 +18,9 @@
   <!-- Temporary overrides -->
   <remove-project name="mer-hybris/hybris-boot" />
   <project path="hybris/hybris-boot" name="xperiasailors/hybris-boot" remote="github" revision="master"/>
+
+  <!-- Additions to upstream main manifest -->
+  <project path="external/elfutils" name="platform/external/elfutils" groups="pdk" remote="aosp" />
+  <project path="external/jemalloc" name="platform/external/jemalloc" groups="pdk" remote="aosp" />
   
 </manifest>
