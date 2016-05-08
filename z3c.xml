@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="xperiasailors/android_device_sony_z3c" path="device/sony/z3c" remote="github" />
-  <project name="xperiasailors/android_device_sony_shinano-common" path="device/sony/shinano-common" remote="github" />
-  <project name="xperiasailors/android_kernel_sony_msm8974" path="kernel/sony/msm8974" remote="github" />
-  <project name="CyanogenMod/android_device_sony_msm8974-common" path="device/sony/msm8974-common" remote="github" />
-  <project name="CyanogenMod/android_device_sony_common" path="device/sony/common" remote="github" />
-  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" />
-  <project name="CyanogenMod/android_hardware_sony_thermanager" path="hardware/sony/thermanager" remote="github" />
-
-  <project name="TheMuppets/proprietary_vendor_sony" path="vendor/sony" remote="github" />
+  <project name="xperiasailors/android_device_sony_z3c" path="device/sony/z3c" remote="github" revision="cm-12.1" />
+  <project name="xperiasailors/android_device_sony_shinano-common" path="device/sony/shinano-common" remote="github" revision="cm-12.1" />
+  <project name="xperiasailors/android_kernel_sony_msm8974" path="kernel/sony/msm8974" remote="github" revision="cm-12.1" />
+  <project name="xperiasailors/android_device_sony_msm8974-common" path="device/sony/msm8974-common" remote="github" revision="cm-12.1" />
+  <project name="CyanogenMod/android_device_sony_common" path="device/sony/common" remote="github" revision="cm-12.1" />
+  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-12.1" />
+  <project name="CyanogenMod/android_hardware_sony_thermanager" path="hardware/sony/thermanager" remote="github" revision="cm-12.1" />
 
   <project path="rpm" name="xperiasailors/droid-hal-z3c" revision="master" remote="github" />
   <project path="hybris/droid-configs" name="xperiasailors/droid-config-z3c" remote="github" revision="master"/>
@@ -17,9 +15,4 @@
   <!-- Temporary overrides -->
   <remove-project name="mer-hybris/hybris-boot" />
   <project path="hybris/hybris-boot" name="xperiasailors/hybris-boot" remote="github" revision="master"/>
-
-  <!-- Additions to upstream main manifest -->
-  <project path="external/elfutils" name="platform/external/elfutils" groups="pdk" remote="aosp" />
-  <project path="external/jemalloc" name="platform/external/jemalloc" groups="pdk" remote="aosp" />
-  
 </manifest>
