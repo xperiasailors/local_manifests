@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <project path="device/sony/huashan" name="XperiaSailors/android_device_sony_huashan" revision="cm-12.1"/>
+    <project path="device/sony/common" name="CyanogenMod/android_device_sony_common" revision="cm-12.1"/>
+    <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" revision="cm-12.1"/>
+    <project path="kernel/sony/msm8960t" name="XperiaSailors/android_kernel_sony_msm8960t" revision="cm-12.1"/>
+    <project path="hardware/qcom/fm" name="CyanogenMod/android_hardware_qcom_fm" revision="cm-12.1"/>
+    <project path="hardware/sony/DASH" name="CyanogenMod/android_hardware_sony_DASH" revision="cm-12.1"/>
+    <project path="hardware/sony/thermanager" name="CyanogenMod/android_hardware_sony_thermanager" revision="cm-12.1"/>
+
+    <project path="hybris/droid-hal-version-huashan" name="XperiaSailors/droid-hal-version-huashan" revision="master" />
+    <project path="hybris/droid-configs" name="XperiaSailors/droid-config-huashan" revision="master" />
+    <project path="rpm" name="XperiaSailors/droid-hal-huashan" revision="master" />
+</manifest>
