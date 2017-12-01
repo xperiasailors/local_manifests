@@ -4,9 +4,9 @@
   <project name="xperiasailors/android_device_sony_yoshino-common" path="device/sony/shinano-common" remote="github" revision="cm-14.1" />
   <project name="xperiasailors/android_kernel_sony_msm8998" path="kernel/sony/msm8974" remote="github" revision="cm-14.1" />
   <project name="xperiasailors/android_device_sony_msm8998-common" path="device/sony/msm8974-common" remote="github" revision="cm-14.1" />
-  <project name="CyanogenMod/android_device_sony_common" path="device/sony/common" remote="github" revision="cm-14.1" />
-  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-14.1" />
-  <project name="CyanogenMod/android_hardware_sony_thermanager" path="hardware/sony/thermanager" remote="github" revision="cm-14.1" />
+  <project name="xperiasailors/android_device_sony-common" path="device/sony/common" remote="github" revision="cm-14.1" />
+  <project name="xperiasailors/android_device_qcom-common" path="device/qcom/common" remote="github" revision="cm-14.1" />
+  <project name="xperiasailors/android_hardware_sony_thermanager" path="hardware/sony/thermanager" remote="github" revision="cm-14.1" />
 
   <project path="rpm" name="xperiasailors/droid-hal-maple" revision="master" remote="github" />
   <project path="hybris/droid-configs" name="xperiasailors/droid-config-maple" remote="github" revision="master"/>
