@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="xperiasailors/android_device_sony_maple" path="device/sony/z3c" remote="github" revision="cm-14.1" />
+  <project name="xperiasailors/android_device_sony_maple" path="device/sony/maple" remote="github" revision="cm-14.1" />
   <project name="xperiasailors/android_device_sony_yoshino-common" path="device/sony/shinano-common" remote="github" revision="cm-14.1" />
   <project name="xperiasailors/android_kernel_sony_msm8998" path="kernel/sony/msm8974" remote="github" revision="cm-14.1" />
   <project name="xperiasailors/android_device_sony_msm8998-common" path="device/sony/msm8974-common" remote="github" revision="cm-14.1" />
