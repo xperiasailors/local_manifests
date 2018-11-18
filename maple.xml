@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project name="xperiasailors/android_device_sony_maple" path="device/sony/maple" remote="github" revision="cm-14.1" />
-  <project name="xperiasailors/android_device_sony_yoshino-common" path="device/sony/shinano-common" remote="github" revision="cm-14.1" />
+  <project name="xperiasailors/android_device_sony_yoshino-common" path="device/sony/yoshino-common" remote="github" revision="cm-14.1" />
   <project name="xperiasailors/android_kernel_sony_msm8998" path="kernel/sony/msm8974" remote="github" revision="cm-14.1" />
   <project name="xperiasailors/android_device_sony_msm8998-common" path="device/sony/msm8974-common" remote="github" revision="cm-14.1" />
   <project name="xperiasailors/android_device_sony-common" path="device/sony/common" remote="github" revision="cm-14.1" />
@@ -10,7 +10,7 @@
 
   <project path="rpm" name="xperiasailors/droid-hal-maple" revision="master" remote="github" />
   <project path="hybris/droid-configs" name="xperiasailors/droid-config-maple" remote="github" revision="master"/>
-  <project path="hybris/droid-hal-version-z3c" name="xperiasailors/droid-hal-version-maple" remote="github" revision="master"/>
+  <project path="hybris/droid-hal-version-maple" name="xperiasailors/droid-hal-version-maple" remote="github" revision="master"/>
 
   <!-- Temporary overrides -->
   <remove-project name="mer-hybris/hybris-boot" />
