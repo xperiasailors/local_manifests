@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="device/sony/maple" name="xperiasailors/android_device_sony_maple" revision="hybris-14.1" />
-  <project path="kernel/sony/maple" name="xperiasailors/android_kernel_sony_maple" revision="hybris-14.1" />
-  <project path="hybris/droid-hal-version-maple" name="xperiasailors/droid-hal-version-maple" revision="master" />
+  <project name="sonyxperiadev/device-sony_maple" path="device/sony/maple" remote="github" />
+  <project name="LineageOS/android_device_sony_yoshino-common" path="device/sony/yoshino-common" remote="github" />
+  <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" />
+  <project name="LineageOS/android_hardware_samsung_slsi-cm_exynos" path="hardware/samsung_slsi-cm/exynos" remote="github" />
+  <project name="LineageOS/android_hardware_samsung_slsi-cm_exynos5" path="hardware/samsung_slsi-cm/exynos5" remote="github" />
+  <project name="LineageOS/android_hardware_samsung_slsi-cm_exynos8890" path="hardware/samsung_slsi-cm/exynos8890" remote="github" />
+  <project name="LineageOS/android_hardware_samsung_slsi-cm_openmax" path="hardware/samsung_slsi-cm/openmax" remote="github" />
+  <project name="cryptomilk/android_kernel_sony_msm8998" path="kernel/sony/msm8998" remote="github" revision="hybris-14.1" />
+  <project name="Driim/proprietary_vendor_samsung" path="vendor/samsung/hero-common" remote="github" revision="hybris-14.1" />
+  <project path="rpm/" name="xperiasailors/droid-hal-maple" revision="master" />
   <project path="hybris/droid-configs" name="xperiasailors/droid-config-maple" revision="master" />
-  <project path="rpm" name="xperiasailors/droid-hal-maple" revision="master" />
+  <project path="hybris/droid-hal-version-herolte" name="xperiasailors/droid-hal-version-maple" revision="master" />
 </manifest>
