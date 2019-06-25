@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="xperiasailors/device-sony-kirin" path="device/sony/maple" remote="github" revision="android-9.0.0_r37" />
+  <project name="xperiasailors/device-sony-ganges" path="device/sony/ganges" remote="github" revision="android-9.0.0_r37" />
+  <project name="xperiasailors/android_kernel_sony_maple" path="kernel/sony/maple" remote="github" revision="hybris-16.1" />
+  <project name="xperiasailors/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-12.1" />
+  <project name="xperiasailors/android_hardware_sony_thermanager" path="hardware/sony/thermanager" remote="github" revision="cm-12.1" />
+  
+  <!-- Temporary overrides -->
+  <remove-project name="mer-hybris/hybris-boot" />
+  <project path="hybris/hybris-boot" name="Keij0/hybris-boot" remote="github" revision="master"/>
+  
+  <!-- WIP -->
+  <project name="xperiasailors/droid-config-kirin" path="hybris/droid-configs" remote="github" revision="master"/>
+  <project name="xperiasailors/droid-hal-kirin" path="rpm" revision="master" remote="github" />
+  <project name="Umeaboy/droid-hal-version-I4113" path="droid-hal-version-I4113" remote="github" revision="master"/>
+</manifest>
