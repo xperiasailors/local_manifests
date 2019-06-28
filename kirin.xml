@@ -1,17 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="xperiasailors/device-sony-kirin" path="device/sony/maple" remote="github" revision="android-9.0.0_r37" />
-  <project name="xperiasailors/device-sony-ganges" path="device/sony/ganges" remote="github" revision="android-9.0.0_r37" />
-  <project name="xperiasailors/android_kernel_sony_maple" path="kernel/sony/maple" remote="github" revision="hybris-16.1" />
-  <project name="xperiasailors/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-12.1" />
-  <project name="xperiasailors/android_hardware_sony_thermanager" path="hardware/sony/thermanager" remote="github" revision="cm-12.1" />
-  
-  <!-- Temporary overrides -->
-  <remove-project name="mer-hybris/hybris-boot" />
-  <project path="hybris/hybris-boot" name="Keij0/hybris-boot" remote="github" revision="master"/>
-  
-  <!-- WIP -->
-  <project name="xperiasailors/droid-config-kirin" path="hybris/droid-configs" remote="github" revision="master"/>
-  <project name="xperiasailors/droid-hal-kirin" path="rpm" revision="master" remote="github" />
-  <project name="Umeaboy/droid-hal-version-I4113" path="droid-hal-version-I4113" remote="github" revision="master"/>
+<project name="device-sony-ganges" path="device/sony/ganges" groups="device" remote="sonyxperiadev" revision="p-mr1" />
+<project name="device-sony-kirin" path="device/sony/kirin" groups="device" remote="sonyxperiadev" revision="p-mr1" />
+<project name="kernel" path="kernel/sony/msm-4.9/kernel" groups="device" remote="sonyxperiadev" revision="aosp/LE.UM.2.3.2.r1.4" />
+<project name="xperiasailors/droid-hal-version-kirin" path="hybris/droid-hal-version-vince" revision="master" />
+<project name="xperiasailors/droid-config-kirin" path="hybris/droid-configs" revision="hybris-16.0" />
+<project name="mer-hybris/hybris-boot" path="hybris/hybris-boot" revision="master" />
+<project name="xperiasailors/droid-hal-kirin" path="rpm" revision="hybris-16.0" />
+<remove-project name="sailfishos/droidmedia" /> 
+<project path="external/droidmedia"  name="Sailfish-On-Vince/droidmedia" revision="master"/>
 </manifest>
