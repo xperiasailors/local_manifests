@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="xperiasailors/android_kernel_sony_msm8974" path="kernel/sony/msm8974" remote="github" revision="n-mr1" />
+  <project name="xperiasailors/android_device_sony_shinano-common" path="device/sony/shinano-common" remote="github" revision="n-mr1" />
+  <project name="xperiasailors/android_device_sony_scorpion" path="device/sony/scorpion" remote="github" revision="n-mr1" />
+<!--Hybris related repos -->
+  <project name="xperiasailors/droid-hal-scorpion" path="rpm" remote="github" revision="n-mr1" />
+  <project name="xperiasailors/droid-config-scorpion" path="hybris/droid-configs" remote="github" revision="n-mr1"/>
+  <project name="xperiasailors/droid-hal-version-scorpion" path="hybris/droid-hal-version-scorpion" remote="github" revision="n-mr1"/>
+</manifest>
